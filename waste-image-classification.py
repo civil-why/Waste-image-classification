@@ -42,7 +42,7 @@ testset = datasets.ImageFolder(root='datasets/predict/', transform=data_transfor
 predict_l = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle=False, num_workers=num_workers)
 
 
-classes = ('cardboard', 'glass', 'metal', 'paper','plastic','trash')
+classes = ('cardboard', 'glass', 'metal', 'paper','plastic','othertrash')
 
 
 class ResidualBlock(nn.Module):
