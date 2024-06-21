@@ -1,4 +1,3 @@
-import os.path
 import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
